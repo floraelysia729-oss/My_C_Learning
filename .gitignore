@@ -41,3 +41,8 @@
 # Build directories
 build/
 dist/
+
+# Compiled binaries (without extension) - common pattern
+# Add specific binary names here
+hello
+a.out
