@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-int main()
+int substr()
 {
     char *p1,*p2;
     p1=(char*)malloc(10000*sizeof(char));
