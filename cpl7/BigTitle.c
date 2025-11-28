@@ -2,7 +2,7 @@
 #include<ctype.h>
 #include<stdlib.h>
 
-int main()
+void bigtitle()
 {
     char* p;
     p=(char*)malloc(4096*sizeof(char));

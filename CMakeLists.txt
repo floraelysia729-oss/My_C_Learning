@@ -17,6 +17,7 @@ foreach(file_path ${MY_SOURCES})
         # 自动生成 executable
         add_executable(${target_name} ${file_path}
                 cpl7/substr.c
-                cpl7/BigTitle.c)
+                cpl7/BigTitle.c
+                cpl7/pife.c)
     endif()
 endforeach()
