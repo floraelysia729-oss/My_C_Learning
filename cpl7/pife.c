@@ -2,10 +2,10 @@
 #include<stdlib.h>
 #include<string.h>
 
-int main()
+void pife()
 {
     int n = 0;
-    if(scanf("%d", &n) != 1) return 0;
+    if(scanf("%d", &n) != 1) return ;
 
     // 申请内存
     char* p = (char*)malloc(1005 * sizeof(char));
@@ -88,5 +88,5 @@ int main()
 
     free(p);
     free(temp);
-    return 0;
+    return ;
 }
