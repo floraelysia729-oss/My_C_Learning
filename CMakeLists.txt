@@ -12,6 +12,7 @@ set(MY_TOOLS
         cpl7/substr.c
         cpl7/BigTitle.c
         cpl7/pife.c
+        cpl8/strs_interleaf.c
 )
 
 # ==========================================
